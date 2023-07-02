@@ -53,3 +53,23 @@ showTask();
 lightModeToggle.addEventListener('click', function(){
     document.body.classList.toggle('ligt-mode');
 });
+
+
+
+ 
+ 
+
+/*from here*/
+function myFunction() {
+  var button = document.querySelector('.toggle-button');
+  var image = button.querySelector('img');
+  var body = document.querySelector('body');
+
+  if (image.src.endsWith('icon-moon.svg')) {
+    image.src =  'images/icon-sun.svg';
+    
+  } else {
+    image.src = 'images/icon-moon.svg';
+    
+  }
+}
